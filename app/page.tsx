@@ -1,8 +1,11 @@
+import { FeatureCards } from "@/components/home-feature";
+import HomeHero from "@/components/home-hero";
 
 export default function Home() {
   return (
    <div>
-      <h1>Welcome to the Home Page</h1>
+      <HomeHero />
+      <FeatureCards />
    </div>
   );
 }
